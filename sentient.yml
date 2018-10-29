@@ -123,7 +123,7 @@ spec:
         tier: model
     spec:
       containers:
-      - name: sentiment_model
+      - name: sentiment-model
         image: gcr.io/sentriq-ml-models/sentiment:v1
         resources:
           requests:
